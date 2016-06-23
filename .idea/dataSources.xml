@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1136246693">
+  <component name="DataSourceManagerImpl" format="xml" hash="2196066168">
     <data-source source="LOCAL" name="development" uuid="e745a199-3ab7-4659-aee9-5c05358d9f7d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -14,6 +14,13 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails fusionworks: development" uuid="45ed8243-1776-4cec-96c0-fed6db24ae09">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\PROGRAMS\Rails\fusionworks\db\development.sqlite3</jdbc-url>
+      <libraries />
     </data-source>
   </component>
 </project>

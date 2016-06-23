@@ -14,15 +14,15 @@
   <div class="form">
   <div class="field">
     <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, required: true, minlength: 2, placeholder: 'Enter First Name ...' %>
   </div>
   <div class="field">
     <%= f.label :surname %><br>
-    <%= f.text_field :surname %>
+    <%= f.text_field :surname, required: true, minlength: 2, placeholder: 'Enter Last Name ...' %>
   </div>
   <div class="field">
     <%= f.label :email %><br>
-    <%= f.text_field :email %>
+    <%= f.text_field :email, required: true, type: 'email', placeholder: 'Enter Email ...' %>
   </div>
     <br>
   <div class="actions">

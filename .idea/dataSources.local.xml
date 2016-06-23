@@ -2,5 +2,6 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="development" uuid="e745a199-3ab7-4659-aee9-5c05358d9f7d" />
+    <data-source name="Rails fusionworks: development" uuid="45ed8243-1776-4cec-96c0-fed6db24ae09" />
   </component>
 </project>
